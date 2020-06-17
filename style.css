@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    display: block;
+    background: #5555ff;
+    color: #ffffff;
+}
+
+.name {
+    padding: 5px;
+    font-size: 14px;
+}
+
+.add {
+    bottom: 10px;
+    right: 10px;
+    padding: 5px 8px;
+    font-size: 12px;
+    position: fixed;
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    background: #5555ff;
+}
+
+table {
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+th, td {
+    padding: 10px;
+    border: none;
+}
+
+th {
+    color: #5555ff;
+}
+
+input[type=submit] {
+    background: #5555ff;
+    color: #ffffff;
+    border: none;
+    padding: 7px;
+}
